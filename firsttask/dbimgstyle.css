@@ -1,0 +1,117 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font: bold 12px Tahoma;
+}
+
+header, nav, section, article, hgroup, aside, footer
+{
+	display: block;
+}
+
+body
+{
+	background: url("images/login.jpg");
+}
+
+#section
+{
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+#one_img
+{
+	display: block;
+	padding: 20px;
+	height: 300px;
+	float: left;
+	border: 10px solid rgba(255, 255, 255, 0.5);
+	margin: 20px;
+	border-radius: 10px;
+}
+
+#one_img:hover
+{
+	border: 10px solid rgba(255, 255, 255, 0.75)
+}
+
+#image img
+{
+	height: 200px;
+	width: 200px;
+}
+
+#image img:hover
+{
+	border: 1px solid white;
+}
+
+h1
+{
+	font: bold 12px Tahoma;
+	color: #cccccc;
+}
+
+h2
+{
+	font: bold 14px Tahoma;
+	color: #ffffff;
+}
+
+#place
+{
+	display: block;
+	margin: 10px auto;
+}
+
+#about
+{
+	display: block;
+	width: 200px;
+}
+
+#home
+{
+	margin: 40px 10px 10px 90px;
+	height: 30px;
+	width: 80px;
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 2px 2px #cccccc;
+	border-radius: 5px;
+	text-decoration: none;
+}
+		
+#home:hover
+{
+	background: rgba(0,0,0, 0.6);
+	box-shadow: 2px 2px #ffffff;
+	color: white;
+	text-shadow: 1px 1px #cccccc;
+}
+
+#back a
+{
+	text-decoration: none;
+}
+
+#not_found
+{
+	display: block;
+	margin-left: 20px;
+}
+
+#not_found h1
+{
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+	text-decoration: underline;
+}

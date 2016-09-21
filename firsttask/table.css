@@ -1,0 +1,95 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font: bold 12px Tahoma;
+}
+
+header, nav, section, article, h1, h2, h3, aside, footer, hr
+{
+	display: block;
+}
+
+body
+{
+	background: url("login.jpg");
+	display: block;
+}
+
+ #table_data
+{
+	border: 3px solid white;
+	font: bold 16px Tahoma;
+	color: #cccccc;
+	box-shadow: inset 0 25px 2px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	height: 40px;
+}
+
+
+#table_row .not
+{
+	height: 70px;
+}
+
+#table_data:hover:not(.not)
+{
+	border: 2px solid white;
+	box-shadow: 2px 2px black;
+	box-shadow: inset 0 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+#table
+{
+	margin-top: 30px;
+	margin-left: 90px;
+	margin-bottom: 30px;
+}
+
+#the_table
+{
+	width: 250px;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+}
+
+.data, .not
+{
+	padding: 3px 40px;
+}
+
+h1
+{
+	font: bold 18px Tahoma;
+	color: white;
+}
+
+#home
+{
+	margin: 40px 10px 10px 90px;
+	height: 30px;
+	width: 80px;
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 2px 2px #cccccc;
+	border-radius: 5px;
+	text-decoration: none;
+}
+		
+#home:hover
+{
+	background: rgba(0,0,0, 0.6);
+	box-shadow: 2px 2px #ffffff;
+	color: white;
+	text-shadow: 1px 1px #cccccc;
+}
+
+#back a
+{
+	text-decoration: none;
+}

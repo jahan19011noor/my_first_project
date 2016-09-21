@@ -1,0 +1,127 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font: bold 12px Tahoma;
+}
+
+header, nav, section, article, hgroup, aside, footer
+{
+	display: block;
+}
+
+body
+{
+	background: url("images/login.jpg");
+	display: block;
+}
+
+#header
+{
+	display: block;
+	font: bold 18px Tahoma;
+	margin-bottom: 20px;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-decoration: underline;
+}
+
+#first_form
+{
+	display: block;
+	padding: 30px;
+	border: 10px solid #cccccc;
+	margin: 40px 200px 40px 360px;
+	width: 500px;
+	border-radius: 10px;
+}
+
+#heading
+{
+	display: block;
+	font: bold 16px Tahoma;
+	margin-bottom: 20px;
+	color: #cccccc;
+	text-shadow: 1px 1px black;
+}
+
+#heading:not(.first)
+{
+	
+	margin-top: 40px;
+}
+
+h1
+{
+	display: block;
+	float: left;
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+}
+
+#field
+{
+	display: block;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+#clear
+{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+#table_name, #table_field
+{
+	margin-left: 80px;
+}
+
+#image_field
+{
+	margin-left: 34px;
+}
+
+#table_name, #table_field, #field, #image_field
+{
+	border-radius: 7px;
+	height: 20px;
+	width: 200px;
+	box-shadow: 2px 2px #cccccc;
+}
+
+#table_name:hover, #table_field:hover, #field:hover, #image_field:hover
+{
+	border: 1px solid #ffffff;
+}
+
+#submit
+{
+	float: left;
+	margin: 10px 10px 10px 159px;
+	height: 30px;
+	width: 150px;
+	font: bold 12px Tahoma;
+	color: #ffffff;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 2px 2px #cccccc;
+	border-radius: 5px;
+}
+		
+#submit:hover
+{
+	background: rgba(0,0,0, 0.6);
+	box-shadow: 2px 2px #ffffff;
+	color: white;
+	text-shadow: 1px 1px #cccccc;
+}

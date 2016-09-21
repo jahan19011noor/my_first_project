@@ -1,0 +1,241 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	font: bold 12px Tahoma;
+}
+
+header, nav, section, article, h1, h2, h3, aside, footer, hr
+{
+	display: block;
+}
+
+body
+{
+	background: url("login.jpg");
+	display: block;
+}
+
+#home
+{
+	margin: 40px 30px 0px 400px;
+	height: 30px;
+	width: 80px;
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 2px 2px #cccccc;
+	border-radius: 5px;
+	text-decoration: none;
+}
+		
+#home:hover
+{
+	background: rgba(0,0,0, 0.6);
+	box-shadow: 2px 2px #ffffff;
+	color: white;
+	text-shadow: 1px 1px #cccccc;
+}
+
+
+
+#view_form
+{
+	display: block;
+	padding: 30px;
+	border: 10px solid #cccccc;
+	margin: 40px 200px 40px 400px;
+	width: 500px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+#view_form:hover
+{
+	border: 10px solid white;
+	background: rgba(0,0,0, 0.2);
+}
+
+#heading
+{
+	display: block;
+	font: bold 20px Tahoma;
+	margin-bottom: 20px;
+	color: white;
+	text-shadow: 2px 2px black;
+	text-decoration: underline;
+}
+
+h1
+{
+	display: block;
+	font: bold 18px Tahoma;
+	margin-bottom: 20px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#h2, h2
+{
+	display: block;
+	font: bold 16px Tahoma;
+	margin-bottom: 20px;
+	color: #cccccc;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+}
+
+#h2:hover
+{
+	text-decoration: underline;
+	text-shadow: 2px 2px black;
+}
+
+h3
+{
+	display: block;
+	float: left;
+	font: bold 14px Tahoma;
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+}
+
+#text
+{
+	border-radius: 7px;
+	height: 20px;
+	width: 200px;
+	box-shadow: 2px 2px #cccccc;
+	margin-left: 80px;
+}
+
+#text:hover
+{
+	border: 1px solid #ffffff;
+}
+
+#submit, #back
+{
+	display: block;
+	clear: both;
+	margin: 20px 205px;
+	height: 30px;
+	width: 80px;
+	font: bold 12px Tahoma;
+	color: #ffffff;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 2px 2px #cccccc;
+	border-radius: 5px;
+}
+
+#submit:hover, #back:hover
+{
+	background: rgba(0,0,0, 0.6);
+	box-shadow: 2px 2px #ffffff;
+	color: white;
+	text-shadow: 1px 1px #cccccc;
+}
+
+a
+{
+	text-decoration: none;
+	font: bold 12px Tahoma;
+	color: #ffffff;
+}
+
+#move_down
+{
+	margin-bottom: 20px;
+}
+
+#field
+{
+	margin-bottom: 10px;
+}
+
+#clear
+{
+	display: block;
+	height: 0px;
+	width: 0px;
+	clear: both;
+}
+
+#text_1, #text_2, #text_3, #text_4, #text_5, #text_6, #text_7, #text_f
+{
+	border-radius: 7px;
+	height: 20px;
+	width: 200px;
+	box-shadow: 2px 2px #cccccc;
+}
+
+#text_1:hover, #text_2:hover, #text_3:hover, #text_4:hover, #text_5:hover, #text_6:hover, #text_7:hover, #text_f:hover
+{
+	border: 1px solid #ffffff;
+}
+
+#text_1
+{
+	margin-left: 86px;
+}
+
+#text_f
+{
+	margin-left: 101px;
+}
+
+#text_2
+{
+	margin-left: 74px;
+}
+
+#text_3
+{
+	margin-left: 90px;
+}
+
+#text_4
+{
+	margin-left: 49px;
+}
+
+#text_5
+{
+	margin-left: 80px;
+}
+
+#text_6
+{
+	margin-left: 112px;
+}
+
+#text_7
+{
+	display: block;
+	position: absolute;
+	right: 450px;
+}
+
+hr
+{
+	display: block;
+	clear: both;
+}
+
+.text_1
+{
+	margin-left: 400px;
+}
+
+h4
+{
+	text-decoration: underline;
+	font: normal 12px Tahoma;
+	color: #ffffff;
+	text-shadow: 1px solid black;
+	margin-top: 10px;
+}
